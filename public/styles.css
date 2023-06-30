@@ -21,7 +21,7 @@ h1, p {
 header { 
     
     background-color: #9376E0;
-
+    
     width: 100%;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
 
@@ -29,6 +29,70 @@ header {
     font-size: 1.1rem;
 
     padding: 5px 15px;
+}
+
+.creator {
+
+    height: 10rem;
+    width: 25rem;
+
+    margin: 25px auto;
+    box-shadow: 0px 2px 5px 0px grey;
+
+    border-radius: 2px;
+    font-family: 'Kalam', cursive;
+
+    background-color: white;
+}
+
+.creator input {
+
+    font-weight: bold;
+    font-size: 1.25rem;
+
+    width: 25rem;
+    border: 0;
+
+    padding-top: 5px;
+    padding-left: 10px;
+
+    margin-bottom: 1px;
+
+    font-family: 'Kalam', cursive;
+}
+
+.creator textarea {
+
+    resize: none;
+
+    width: 25rem;
+    height: 5.75rem;
+
+    padding-left: 10px;
+    
+    font-family: 'Kalam', cursive;
+    border: 0;
+}
+
+.creator button{
+
+    float: right;
+    margin-right: 0.66rem;
+
+    border: 0;
+
+    font-size: 1.1rem;
+
+    height: 2rem;
+    width: 3rem;
+
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px 0px grey;
+
+    font-family: 'Kalam', cursive;
+    
+    background-color: #9376E0;
+    cursor: pointer;
 }
 
 .note {
@@ -56,12 +120,29 @@ header {
     padding-right: 7.5px;
 }   
 
+.note button {
+
+    float: right;
+
+    border: 0;
+    background-color: white;
+
+    font-size: 1.1rem;
+    font-family: 'Kalam', cursive;
+
+    color: #9376E0;
+    cursor: pointer;
+}
+
 footer {
 
     background-color: #D9D7F195;
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
+
+    height: 6rem;  
+    z-index: -1;
 
     width: 100%;
     text-align: end;
@@ -72,11 +153,6 @@ footer {
     font-family: 'Caveat', cursive;
     font-size: 0.85rem;
 }
-
-/* For Sticky Footer | When Vertical Scroll is Active */
-/* footer{
-    position: sticky;
-} */
 
 #copyright{
     
